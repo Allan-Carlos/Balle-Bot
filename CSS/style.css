@@ -131,6 +131,10 @@ a:hover {
     border-top: 0.4px solid #ECD6C4;
 }
 
+p {
+    color: #ECD6C4;
+}
+
 .rodape-imagem {
     height: 48px;
     display: block;
