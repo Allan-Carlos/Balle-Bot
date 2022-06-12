@@ -22,11 +22,11 @@ body {
 
 .cabecalho-imagem {
     height: 72px;
+    transition: all 0.7s;
 }
 
 .cabecalho-imagem:hover {
-    height: 78px;
-    transition: 0.7s;
+    transform: scale(1.1);
 }
 
 .cabecalho-menu {
@@ -37,7 +37,7 @@ body {
 a:hover {
     transition: 0.7s;
     color: rgba(103, 29, 29, 0.775);
-    font-size: 20px;
+    transform: scale(1.2);
     }
 
 .cabecalho-menu-item {
@@ -139,4 +139,16 @@ p {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.eu {
+    display: flex;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+
+.eu:hover {
+    transform: scale(0.98);
 }
